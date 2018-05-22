@@ -1,0 +1,70 @@
+.nav-bar {
+  background-color: #232222;
+  display: flex;
+  height: 5em;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.nav-bar-contents {
+  display: flex;
+}
+
+.nav-bar-content-item {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1em;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+.nav-bar-content-item:hover {
+  color: #009968;
+}
+
+.signup-btn {
+  align-items: center;
+  background-color: #009968;
+  border-color: #ff0000;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+  justify-content: center;
+  margin-left: 3em;
+  text-decoration: none;
+  width: 8em;
+}
+
+.signup-btn:hover {
+  filter: brightness(130%);
+}
+
+.main-section {
+  background-image: url('/img/backg.jpg');
+  background-repeat: no-repeat;
+  background-size: 90em;
+  height: 37em;
+  width: 79.4em;
+}
+
+.join-us-btn {
+  align-items: center;
+  border: 2px solid #009968;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3em;
+  justify-content: center;
+  left: 36em;
+  position: relative;
+  text-decoration: none;
+  top: 29em;
+  width: 13em;
+}
+
+.join-us-btn:hover {
+  filter: brightness(130%);
+}
